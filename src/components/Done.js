@@ -1,4 +1,5 @@
 import arrow from '../icons/white-arrow.svg'
+import { useDoneContext } from './DoneContext'
 
 const DoneTask = (props) =>
 {
@@ -14,16 +15,12 @@ const DoneTask = (props) =>
 
 const Done = () =>
 {
-    const data =
-    [
-        "Feed the birds",
-        "Do the homework"
-    ]
+    const done = useDoneContext()
     return (
         <div className='done'>
             <h1>Completed tasks</h1>
             <div>
-                {data.map((task) => <DoneTask done={task}/>)}
+                {done.state.map((task) => <DoneTask done={task}/>)}
             </div>
             <div>
                 <img src={arrow} alt='arrow'/>

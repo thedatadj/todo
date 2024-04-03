@@ -1,7 +1,10 @@
 import { useState } from 'react'
+import { useTaskContext } from './TaskContext'
 const NewTask = () =>
 {
+    const tasks = useTaskContext()
     const [state, setState] = useState("New task")
+
     const handleChange = (e) =>
     {
         setState(e.target.value)
@@ -15,6 +18,7 @@ const NewTask = () =>
     }
     const buttonClick = () =>
     {
+        tasks.setState(tasks.state.concat([state]))
         setState("")
     }
     return (
