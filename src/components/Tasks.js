@@ -4,10 +4,11 @@ const Task = (props) =>
 {
     return (
         <div className='task'>
-            <button></button>
             <div className='task-specific'>
+                <button></button>
                 {props.task}
             </div>
+            <button id='close'>x</button>
         </div>
     )
 }
