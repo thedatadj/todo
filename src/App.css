@@ -58,12 +58,14 @@
 
 .tasks {
   position: relative;
-  height: 450px;
+  height: 693px;
   width: 393px;
   background-color: #D9EDBF;
   border-radius: 8px;
   display: grid;
-  grid-template-rows: 381px
+  grid-template-rows: 381px;
+  box-shadow: 0em 0em 0.6em rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 
 .task {
@@ -123,7 +125,9 @@
   text-align: center;
   color: white;
   display: grid;
-  grid-template-rows: 60px
+  grid-template-rows: 60px;
+  box-shadow: 0em 0em 0.6em rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 
 .done-task {

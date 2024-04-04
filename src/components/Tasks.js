@@ -10,8 +10,6 @@ const Task = (props) =>
     {
         const index = tasks.state.indexOf(props.task)
         const deltask = tasks.state.slice(0, index).concat(tasks.state.slice(index + 1))
-        console.log(index)
-        console.log(deltask)
         tasks.setState(deltask)
     }
     const doneClick = () =>
