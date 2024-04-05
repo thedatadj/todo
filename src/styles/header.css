@@ -1,0 +1,16 @@
+.header
+{
+    height: 9vh;
+    background-color: #D9EDBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Italiana";
+}
+
+.header h1
+{
+    margin: auto;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}

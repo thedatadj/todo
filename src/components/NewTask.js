@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { useTaskContext } from './TaskContext'
+// Styles
+import '../styles/newtask.css'
 const NewTask = () =>
 {
     const tasks = useTaskContext()

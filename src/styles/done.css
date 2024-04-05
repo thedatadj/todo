@@ -1,0 +1,53 @@
+.done
+{
+    background-color: #2C7865;
+    color: white;
+    position: absolute;
+    top: 85vh;
+    width: 90vw;
+    height: 15vh;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    display: grid;
+    grid-template-rows: 8vh;
+    box-shadow: 0em 0em 0.6em rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+.done h1 {
+    margin: 0px;
+    margin-top: 0.2em;
+}
+.done-task
+{
+    background-color: #F1F1F1;
+    color: #7C7C7C;
+    height: 8vh;
+    width: 80vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border-radius: 0.4em;
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+  }
+.done-task button
+{
+    background-color: black;
+    height: 1.7em;
+    width: 1.7em;
+    margin: 0em;
+    margin-left: 1em;
+    margin-right: 2em;
+    border-radius: 0.5em;
+  }
+.done-task img
+{
+    width: 2em;
+}
+.done-task div
+{
+    justify-self: center;
+}

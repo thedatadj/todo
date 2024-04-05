@@ -1,3 +1,5 @@
+// Styles
+import '../styles/body.css'
 import Tasks from './Tasks'
 import Done from './Done'
 const Body = () =>

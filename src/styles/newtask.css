@@ -1,0 +1,29 @@
+.newtask
+{
+    position: relative;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0em 0.4em 0.6em rgba(0, 0, 0, 0.6);
+}
+
+.newtask input
+{
+    width: 60vw;
+    height: 6.5vh;
+    border-radius: 0.5em;
+    font-size: 1.7em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.newtask button
+{
+    height: 7.3vh;
+    width: 24vw;
+    background-color: #FF9800;
+    border-radius: 0.5em;
+    padding: 0em;
+    font-size: 1.7em;
+}

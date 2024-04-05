@@ -1,3 +1,6 @@
+// Styles
+import '../styles/main.css'
+// Components
 import Header from './Header'
 import NewTask from './NewTask'
 import Body from './Body'

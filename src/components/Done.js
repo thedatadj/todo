@@ -1,4 +1,8 @@
+// Styles
+import '../styles/done.css'
+// Assets
 import arrow from '../icons/white-arrow.svg'
+// Functions
 import { useDoneContext } from './DoneContext'
 
 const DoneTask = (props) =>

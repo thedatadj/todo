@@ -1,6 +1,11 @@
+// Styles
+import '../styles/task.css'
+// Assets
 import arrow from '../icons/black-arrow.svg'
+// Functions
 import { useTaskContext } from './TaskContext'
 import { useDoneContext } from './DoneContext'
+
 
 const Task = (props) =>
 {
